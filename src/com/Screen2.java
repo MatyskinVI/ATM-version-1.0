@@ -8,13 +8,19 @@ public class Screen2 extends ScreenATM{
 
     @Override
     public void showMenu() throws IOException {
-        System.out.println("Welcome to your card. \n ----------------------- \ninsert 1 to get Balance " +
-                "\ninsert 2 to get cash \ninsert 3 to take card \n -----------------------" +
+        System.out.println("Welcome to your card. \n ----------------------- \ninsert \"1\" to get Balance " +
+                "\ninsert \"2\" to get cash \ninsert \"3\" to take card \n -----------------------" +
                 "\nPlease, do your choice :");
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        int choice = Integer.parseInt(reader.readLine());
-        if (choice == 1) {
-            System.out.println("Your cart number is " + getNumberCart() + "\nYour money is " + getCountMoneyINCart());
+        String choice = reader.readLine();
+        switch (choice) {
+            case "1":
+                Screen5 screen5 = new Screen5();
+                break;
+            case "2":
+                Screen4 screen4 = new Screen4();
+                screen4.showMenu();
+                break;
         }
     }
 

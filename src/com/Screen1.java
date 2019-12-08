@@ -13,19 +13,28 @@ public class Screen1 extends ScreenATM{
     @Override
     public void showMenu() throws IOException {
         int count = 0;
+        // Hello screen, check pin code and here are two ways to continue
         System.out.println("Welcome to ATM.");
         while (count != 3){
-            System.out.println("Please insert your PIN. \n   .  .  .  .");
+            System.out.println("Please insert your PIN. \nYou have "+ (3 - count) +" tries.\n   .  .  .  .");
             BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
             int userPIN = Integer.parseInt(reader.readLine());
-            if (userPIN == getCartPinCode() && count != 3) {
+            if (userPIN == getCartPinCode()) {
                 //System.out.println("Your cart number is " + getNumberCart() + "\nYour money is " + getCountMoneyINCart()); //Test
                 Screen2 screen2 = new Screen2();
                 screen2.showMenu();
-            }
-            else{
+            } // First way (pin code is right) to continue
+            else {
                 count++;
-            }
+                System.out.println("Your pin code is wrong.");
+            } // Second way (pin code is wrong) to continue
+        } // Check pin code
+        if (count == 3){
+            System.out.println("Your card is blocked. \nPlease call your bank.");
+        } // Finish with wrong pin code
+        else {// Finish with right pin code
+            Screen3 screen3 = new Screen3();
+            screen3.showMenu();
         }
     }
 
