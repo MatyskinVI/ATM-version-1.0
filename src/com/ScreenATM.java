@@ -1,26 +1,33 @@
 package com;
 
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 
 public abstract class ScreenATM {
-    private int cartPinCode;
-    private long numberCart;
-    private int countMoneyINCart;
+    private static int cartPinCode;
+    private static long numberCart;
+    private static int countMoneyINCart;
+
+    public int getCartPinCode() {
+        return cartPinCode;
+    }
+    public int getCountMoneyINCart() {
+        return countMoneyINCart;
+    }
+    public void setCountMoneyINCart(int countMoneyINCart) {
+        this.countMoneyINCart = countMoneyINCart;
+    }
+    public long getNumberCart() {
+        return numberCart;
+    }
 
     public ScreenATM(int cartPinCode, long numberCart, int countMoneyINCart){
         this.cartPinCode = cartPinCode;
         this.numberCart = numberCart;
         this.countMoneyINCart = countMoneyINCart;
     }
+    public ScreenATM(){}
 
-    public void showMenu() throws Exception{
-        System.out.println("Welcome to ATM. \nPlease insert your PIN. \n   .  .  .  .");
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        int userPIN = Integer.parseInt(reader.readLine());
-        if (userPIN == cartPinCode){
-            //System.out.println("Your cart number is " + cartPinCode+ "\nYour number card is " + numberCart);// Test
-            System.out.println();
-        }
-    }
+    public abstract void showMenu() throws IOException;
 }
