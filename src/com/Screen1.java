@@ -27,19 +27,15 @@ public class Screen1 extends ScreenATM{
             else {
                 count++;
                 System.out.println("Your pin code is wrong.");
-            } // Second way (pin code is wrong) to continue
-        } // Check pin code
-        if (count == 3){
-            System.out.println("Your card is blocked. \nPlease call your bank.");
-        } // Finish with wrong pin code
-        else {// Finish with right pin code
-            Screen3 screen3 = new Screen3();
-            screen3.showMenu();
-        }
+            }
+        } // Second way (pin code is wrong) to continue
+        System.out.println("Your card is blocked. \nPlease call your bank.");
+        System.exit(0);
+
     }
 
     public static void main(String[] args) throws IOException {
-        Screen1 screen1 = new Screen1(1111, 2222333322223333l, 1000);
+        Screen1 screen1 = new Screen1(1111, 2222333322223333L, 1000);
         screen1.showMenu();
     }
 }
