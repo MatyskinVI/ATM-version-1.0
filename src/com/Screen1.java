@@ -14,9 +14,13 @@ public class Screen1 extends ScreenATM{
     public void showMenu() throws IOException {
         int count = 0;
         // Hello screen, check pin code and here are two ways to continue
-        System.out.println("Welcome to ATM.");
+        System.out.println("_________________________" +
+                "\n|Welcome to ATM.        |");
         while (count != 3){
-            System.out.println("Please insert your PIN. \nYou have "+ (3 - count) +" tries.\n   .  .  .  .");
+            System.out.println("|Please insert your PIN.| " +
+                    "\n|You have "+ (3 - count) +" tries.      |" +
+                    "\n|      .  .  .  .       |"+
+                    "\n|_______________________|");
             BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
             int userPIN = Integer.parseInt(reader.readLine());
             if (userPIN == getCartPinCode()) {

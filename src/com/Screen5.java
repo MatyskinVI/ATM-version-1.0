@@ -9,8 +9,13 @@ public class Screen5 extends ScreenATM{
     @Override
     public void showMenu() throws IOException {
         System.out.println("Your count money is : " + getCountMoneyINCart());
-        System.out.println("\n----------------------- \ninsert \"r\" to return to the previous menu " +
-                "\ninsert \"t\" to take card \n -----------------------" + "\nPlease insert \"r\" or \"t\" \ndo your choice :");
+        System.out.println("___________________________________________" +
+                "\n|insert \"r\" to return to the previous menu|" +
+                "\n|insert \"t\" to take card                  |" +
+                "\n|Please insert \"r\" or \"t\"                 |" +
+                "\n|do your choice :                         |" +
+                "\n|              .  .  .  .                 |" +
+                "\n|_________________________________________|");
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         switch (reader.readLine()) {
             case "r":
@@ -20,5 +25,10 @@ public class Screen5 extends ScreenATM{
                 Screen3 screen3 = new Screen3();
                 screen3.showMenu();
         }
+    }
+
+    public static void main(String[] args) throws IOException {
+        Screen5 screen5 = new Screen5();
+        screen5.showMenu();
     }
 }
