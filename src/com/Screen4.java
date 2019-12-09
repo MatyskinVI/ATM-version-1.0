@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 public class Screen4 extends ScreenATM{
     @Override
     public void showMenu() throws IOException {
-        //while (true){
+        while (true){
             System.out.println("\n----------------------- \ninsert \"r\" to return to the previous menu " +
                     "\ninsert \"t\" to take card \n -----------------------" + "\nPlease insert sum you need to get or " +
                     "\"r\" or \"t\" \ndo your choice :");
@@ -34,7 +34,7 @@ public class Screen4 extends ScreenATM{
                     System.out.println("You aren't enough money on your card.");
             }
 
-        //}
+        }
     }
 }
 
