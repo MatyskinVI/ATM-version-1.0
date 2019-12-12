@@ -1,13 +1,17 @@
-package com;
+package com.screen;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Screen2 extends ScreenATM{
+public class SelectActionScreen extends Screen {
+
+    public SelectActionScreen (Screen screen) {
+        super(screen.getCardPinCode(), screen.getNumberCart(), screen.getCardBalance());
+    }
 
     @Override
-    public void showMenu() throws IOException {
+    public void showScreen() throws IOException {
         System.out.println("__________________________________" +
                 "\n|Welcome to your card.           |" +
                 "\n|insert \"g\" to get Balance       |" +
@@ -20,22 +24,17 @@ public class Screen2 extends ScreenATM{
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String choice = reader.readLine();
-        switch (choice) {
-            case "g":
-                Screen5 screen5 = new Screen5();
-                screen5.showMenu();
-            case "c":
-                Screen4 screen4 = new Screen4();
-                screen4.showMenu();
-            case "t":
-                Screen3 screen3 = new Screen3();
-                screen3.showMenu();
-
+        if (choice.equals("g")) {
+            ShowBalanceScreen showBalanceScreen = new ShowBalanceScreen(this);
+            showBalanceScreen.showScreen();
         }
-    }
-
-    public static void main(String[] args) throws IOException {
-        Screen2 screen2 = new Screen2();
-        screen2.showMenu();
+        if (choice.equals("c")) {
+            InputMoneyScreen inputMoneyScreen = new InputMoneyScreen(this);
+            inputMoneyScreen.showScreen();
+        }
+        if (choice.equals("t")) {
+            ReturnCardScreen returnCardScreen = new ReturnCardScreen(this);
+            returnCardScreen.showScreen();
+        }
     }
 }
