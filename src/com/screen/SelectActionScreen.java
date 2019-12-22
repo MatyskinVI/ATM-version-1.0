@@ -1,13 +1,15 @@
 package com.screen;
 
+import com.BankCard;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class SelectActionScreen extends Screen {
 
-    public SelectActionScreen (Screen screen) {
-        super(screen.getCardPinCode(), screen.getNumberCart(), screen.getCardBalance());
+    public SelectActionScreen (BankCard bankCard, Screen screen) {
+        super(bankCard, screen.getAtm());
     }
 
     @Override
@@ -25,15 +27,15 @@ public class SelectActionScreen extends Screen {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String choice = reader.readLine();
         if (choice.equals("g")) {
-            ShowBalanceScreen showBalanceScreen = new ShowBalanceScreen(this);
+            ShowBalanceScreen showBalanceScreen = new ShowBalanceScreen(this.getBankCard(), this);
             showBalanceScreen.showScreen();
         }
         if (choice.equals("c")) {
-            InputMoneyScreen inputMoneyScreen = new InputMoneyScreen(this);
+            InputMoneyScreen inputMoneyScreen = new InputMoneyScreen(this.getBankCard(), this);
             inputMoneyScreen.showScreen();
         }
         if (choice.equals("t")) {
-            ReturnCardScreen returnCardScreen = new ReturnCardScreen(this);
+            ReturnCardScreen returnCardScreen = new ReturnCardScreen(this.getBankCard(), this);
             returnCardScreen.showScreen();
         }
     }

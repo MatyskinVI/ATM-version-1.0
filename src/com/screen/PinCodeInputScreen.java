@@ -1,13 +1,16 @@
 package com.screen;
 
+import com.ATM;
+import com.BankCard;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class PinCodeInputScreen extends Screen {
 
-    public PinCodeInputScreen(int cardPinCode, long cardNumber, double cardBalance){
-        super(cardPinCode, cardNumber, cardBalance);
+    public PinCodeInputScreen(BankCard bankCard , ATM nameATM){
+        super(bankCard, nameATM);
     }
 
     @Override
@@ -15,7 +18,7 @@ public class PinCodeInputScreen extends Screen {
         int pinCodeInputTry = 0;
         int inputPinCode;
 
-        System.out.println("Welcome to ATM.");
+        System.out.println("Welcome to " + getAtm().getNameATM() + ".");
         while (pinCodeInputTry != 3){
             System.out.println("_________________________" +
                     "\n|Please insert your PIN.| " +
@@ -30,17 +33,11 @@ public class PinCodeInputScreen extends Screen {
                 System.out.println("Your pin code is wrong.");
             }
             if (inputPinCode == getCardPinCode()) {
-                SelectActionScreen selectActionScreen = new SelectActionScreen(this);
+                SelectActionScreen selectActionScreen = new SelectActionScreen(this.getBankCard(), this);
                 selectActionScreen.showScreen();
             }
         }
         System.out.println("Your card is blocked. Please call your bank.");
         System.exit(0);
-    }
-
-    public static void main(String[] args) throws IOException {
-        PinCodeInputScreen pinCodeInputScreen = new PinCodeInputScreen(1111,
-                2222111122223333L, 1000);
-        pinCodeInputScreen.showScreen();
     }
 }

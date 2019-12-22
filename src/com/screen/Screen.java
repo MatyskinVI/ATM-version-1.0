@@ -1,33 +1,42 @@
 package com.screen;
 
+import com.ATM;
+import com.BankCard;
+
 import java.io.IOException;
 
 public abstract class Screen {
-    private int cardPinCode;
-    private long numberCart;
-    private double cardBalance;
+    private BankCard bankCard;
+    private ATM atm;
 
-    public Screen(int cardPinCode, long cardNumber, double cardBalance) {
-        this.cardPinCode = cardPinCode;
-        this.numberCart = cardNumber;
-        this.cardBalance = cardBalance;
+    public Screen(BankCard bankCard, ATM atm) {
+        this.bankCard = bankCard;
+        this.atm = atm;
     }
 
     public int getCardPinCode() {
-        return cardPinCode;
+        return bankCard.getCardPinCode();
     }
 
     public double getCardBalance() {
-        return cardBalance;
+        return bankCard.getCardBalance();
     }
 
     public void setCardBalance(double money) {
-        this.cardBalance = money;
+        bankCard.setCardBalance(money);
     }
 
     public long getNumberCart() {
-        return numberCart;
+        return bankCard.getNumberCart();
     }
 
     public abstract void showScreen() throws IOException;
+
+    public ATM getAtm() {
+        return atm;
+    }
+
+    public BankCard getBankCard() {
+        return this.bankCard;
+    }
 }

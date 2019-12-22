@@ -1,9 +1,11 @@
 package com.screen;
 
+import com.BankCard;
+
 public class ReturnCardScreen extends Screen {
 
-    public ReturnCardScreen(Screen screen) {
-        super(screen.getCardPinCode(), screen.getNumberCart(), screen.getCardBalance());
+    public ReturnCardScreen(BankCard bankCard, Screen screen) {
+        super(bankCard, screen.getAtm());
     }
 
     @Override
