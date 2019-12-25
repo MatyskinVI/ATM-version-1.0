@@ -11,16 +11,22 @@ public class BankCard {
         this.cardBalance = cardBalance;
     }
 
+    public BankCard() {
+        this.cardPinCode = 1111;
+        this.numberCart = 1111222211112222L;
+        this.cardBalance = 1000;
+    }
+
+    public double getCardBalance() {
+        return cardBalance;
+    }
+
     public int getCardPinCode() {
         return cardPinCode;
     }
 
     public long getNumberCart() {
         return numberCart;
-    }
-
-    public double getCardBalance() {
-        return cardBalance;
     }
 
     public void setCardBalance(double cardBalance) {

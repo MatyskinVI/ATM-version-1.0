@@ -9,10 +9,15 @@ public class ReturnCardScreen extends Screen {
     }
 
     @Override
-    public void showScreen() {
+    public void showUserInterface() {
         System.out.println("_________________________" +
                 "\n|Thanks. Take your card.|" +
                 "\n|_______________________|");
+    }
+
+    @Override
+    public void work() {
+        showUserInterface();
         System.exit(0);
     }
 }
