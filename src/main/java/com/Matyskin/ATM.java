@@ -1,7 +1,7 @@
-package com;
+package com.Matyskin;
 
-import com.screen.PinCodeInputScreen;
-import com.screen.Screen;
+import com.Matyskin.screen.PinCodeInputScreen;
+import com.Matyskin.screen.Screen;
 
 public class ATM {
     private String nameATM;

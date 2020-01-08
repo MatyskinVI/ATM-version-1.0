@@ -1,4 +1,4 @@
-package com;
+package com.Matyskin;
 
 public class BankCard {
     private int cardPinCode;

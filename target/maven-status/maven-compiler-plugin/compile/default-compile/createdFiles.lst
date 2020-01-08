@@ -1,8 +1,8 @@
-com\screen\PinCodeInputScreen.class
-com\screen\SelectActionScreen.class
-com\ATM.class
-com\BankCard.class
-com\screen\InputMoneyScreen.class
-com\screen\ShowBalanceScreen.class
-com\screen\ReturnCardScreen.class
-com\screen\Screen.class
+com\Matyskin\screen\ShowBalanceScreen.class
+com\Matyskin\ATM.class
+com\Matyskin\screen\InputMoneyScreen.class
+com\Matyskin\screen\ReturnCardScreen.class
+com\Matyskin\screen\PinCodeInputScreen.class
+com\Matyskin\screen\Screen.class
+com\Matyskin\screen\SelectActionScreen.class
+com\Matyskin\BankCard.class

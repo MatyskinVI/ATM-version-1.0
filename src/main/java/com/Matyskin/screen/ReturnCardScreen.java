@@ -1,6 +1,6 @@
-package com.screen;
+package com.Matyskin.screen;
 
-import com.BankCard;
+import com.Matyskin.BankCard;
 
 public class ReturnCardScreen extends Screen {
 

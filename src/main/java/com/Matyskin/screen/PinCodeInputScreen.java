@@ -1,7 +1,7 @@
-package com.screen;
+package com.Matyskin.screen;
 
-import com.ATM;
-import com.BankCard;
+import com.Matyskin.ATM;
+import com.Matyskin.BankCard;
 
 import java.io.BufferedReader;
 import java.io.IOException;

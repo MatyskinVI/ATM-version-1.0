@@ -1,11 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99d20792-0033-4f2a-bd2a-e9e9e4e2a2d0" name="Default Changelist" comment="" />
+    <list default="true" id="99d20792-0033-4f2a-bd2a-e9e9e4e2a2d0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ATM-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/AtmMvnGit.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Matyskin/screen/ReturnCardScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AtmMvnGit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AtmMvnGit.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AtmMvnGit/com/ATM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AtmMvnGit/com/BankCard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AtmMvnGit/com/screen/InputMoneyScreen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AtmMvnGit/com/screen/PinCodeInputScreen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AtmMvnGit/com/screen/ReturnCardScreen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AtmMvnGit/com/screen/Screen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AtmMvnGit/com/screen/SelectActionScreen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AtmMvnGit/com/screen/ShowBalanceScreen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ATM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Matyskin/ATM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/BankCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Matyskin/BankCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/screen/InputMoneyScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Matyskin/screen/InputMoneyScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/screen/PinCodeInputScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Matyskin/screen/PinCodeInputScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/screen/ReturnCardScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Matyskin/screen/ReturnCardScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/screen/Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Matyskin/screen/Screen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/screen/SelectActionScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Matyskin/screen/SelectActionScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/screen/ShowBalanceScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Matyskin/screen/ShowBalanceScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ATM-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ATM.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Matyskin/ATM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/BankCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Matyskin/BankCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/screen/InputMoneyScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Matyskin/screen/InputMoneyScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/screen/PinCodeInputScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Matyskin/screen/PinCodeInputScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/screen/ReturnCardScreen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/screen/Screen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Matyskin/screen/Screen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/screen/SelectActionScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Matyskin/screen/SelectActionScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/screen/ShowBalanceScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Matyskin/screen/ShowBalanceScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/dependencies.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/dependencies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/dependency-convergence.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/dependency-convergence.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/dependency-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/dependency-info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/plugin-management.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/plugin-management.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/plugins.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/plugins.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/project-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/project-info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/project-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/project-summary.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="AtmMvnGit" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -24,12 +74,35 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager">
+  <component name="RunAnythingCache">
+    <myKeys>
+      <visibility group="Gradle tasks" flag="false" />
+      <visibility group="Maven goals" flag="false" />
+      <visibility group="Recent projects" flag="false" />
+      <visibility group="Run configurations" flag="false" />
+    </myKeys>
+  </component>
+  <component name="RunManager" selected="Application.ATM (1)">
+    <configuration name="ATM (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Matyskin.ATM" />
+      <module name="AtmMvnGit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Matyskin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ATM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ATM" />
       <module name="AtmMvnGit" />
@@ -45,6 +118,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ATM (1)" />
         <item itemvalue="Application.ATM" />
       </list>
     </recent_temporary>
@@ -67,38 +141,81 @@
   <component name="TaskManager">
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="312" y="92" key="#Inspections" timestamp="1578510957851">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="312" y="92" key="#Inspections/0.0.1440.860@0.0.1440.860" timestamp="1578510957851" />
-    <state x="447" y="123" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1578509515510">
+    <state x="312" y="92" key="#Project_Structure" timestamp="1578515504612">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="447" y="123" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1440.860@0.0.1440.860" timestamp="1578509515510" />
-    <state x="500" y="189" key="FileChooserDialogImpl" timestamp="1578509235824">
+    <state x="312" y="92" key="#Project_Structure/0.0.1440.860@0.0.1440.860" timestamp="1578515504612" />
+    <state x="174" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578515241746">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="500" y="189" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1578509235824" />
-    <state width="1397" height="222" key="GridCell.Tab.0.bottom" timestamp="1578511130109">
+    <state x="174" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1578515241746" />
+    <state x="447" y="123" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1578516215047">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1578511130109" />
-    <state width="1397" height="222" key="GridCell.Tab.0.center" timestamp="1578511130109">
+    <state x="447" y="123" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1440.860@0.0.1440.860" timestamp="1578516215047" />
+    <state x="121" y="29" key="CommitChangelistDialog2" timestamp="1578522690906">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1578511130109" />
-    <state width="1397" height="222" key="GridCell.Tab.0.left" timestamp="1578511130109">
+    <state x="121" y="29" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1578522690906" />
+    <state x="500" y="189" key="FileChooserDialogImpl" timestamp="1578521410624">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1578511130109" />
-    <state width="1397" height="222" key="GridCell.Tab.0.right" timestamp="1578511130109">
+    <state x="500" y="189" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1578521410624" />
+    <state x="558" y="348" width="347" height="163" key="Github.CreateGistDialog" timestamp="1578515056539">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1578511130109" />
-    <state x="223" y="17" key="SettingsEditor" timestamp="1578509508562">
+    <state x="558" y="348" width="347" height="163" key="Github.CreateGistDialog/0.0.1440.860@0.0.1440.860" timestamp="1578515056539" />
+    <state width="1397" height="222" key="GridCell.Tab.0.bottom" timestamp="1578515244126">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="223" y="17" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1578509508562" />
+    <state width="1397" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1578515244126" />
+    <state width="1397" height="222" key="GridCell.Tab.0.center" timestamp="1578515244126">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1578515244126" />
+    <state width="1397" height="222" key="GridCell.Tab.0.left" timestamp="1578515244126">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1578515244126" />
+    <state width="1397" height="222" key="GridCell.Tab.0.right" timestamp="1578515244126">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1578515244126" />
+    <state width="242" height="198" key="RunAnythingAction_Filter_Popup" timestamp="1578516164417">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="242" height="198" key="RunAnythingAction_Filter_Popup/0.0.1440.860@0.0.1440.860" timestamp="1578516164417" />
+    <state x="247" y="17" key="SettingsEditor" timestamp="1578516166720">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="247" y="17" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1578516166720" />
+    <state x="92" y="92" width="1256" height="676" key="git4idea.log.GitShowExternalLogAction" timestamp="1578521659688">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="92" y="92" width="1256" height="676" key="git4idea.log.GitShowExternalLogAction/0.0.1440.860@0.0.1440.860" timestamp="1578521659688" />
+    <state x="605" y="156" key="run.anything.popup" timestamp="1578516164421">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="605" y="156" key="run.anything.popup/0.0.1440.860@0.0.1440.860" timestamp="1578516164421" />
+    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1578516090207">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1578516090207" />
   </component>
 </project>
