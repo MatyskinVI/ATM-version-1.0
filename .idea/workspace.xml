@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99d20792-0033-4f2a-bd2a-e9e9e4e2a2d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ATM-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/AtmMvnGit.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/Matyskin/screen/ReturnCardScreen.class" afterDir="false" />
+    <list default="true" id="99d20792-0033-4f2a-bd2a-e9e9e4e2a2d0" name="Default Changelist" comment="Revert &quot;make the working *.jar&quot;&#10;&#10;This reverts commit dd21343b1c949d3f28648d8bf5ffdd682f429b77.">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Matyskin/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Matyskin/DataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/UserInterfeceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Matyskin/Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Matyskin/DataBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-UserInterfeceTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/UserInterfeceTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/UserInterfeceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testDataBase.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AtmMvnGit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AtmMvnGit.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AtmMvnGit/com/ATM.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AtmMvnGit/com/BankCard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AtmMvnGit/com/screen/InputMoneyScreen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AtmMvnGit/com/screen/PinCodeInputScreen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AtmMvnGit/com/screen/ReturnCardScreen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AtmMvnGit/com/screen/Screen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AtmMvnGit/com/screen/SelectActionScreen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AtmMvnGit/com/screen/ShowBalanceScreen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ATM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Matyskin/ATM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/BankCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Matyskin/BankCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/screen/InputMoneyScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Matyskin/screen/InputMoneyScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/screen/PinCodeInputScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Matyskin/screen/PinCodeInputScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/screen/ReturnCardScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Matyskin/screen/ReturnCardScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/screen/Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Matyskin/screen/Screen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/screen/SelectActionScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Matyskin/screen/SelectActionScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/screen/ShowBalanceScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Matyskin/screen/ShowBalanceScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ATM-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ATM.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Matyskin/ATM.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/BankCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Matyskin/BankCard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/screen/InputMoneyScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Matyskin/screen/InputMoneyScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/screen/PinCodeInputScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Matyskin/screen/PinCodeInputScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/screen/ReturnCardScreen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/screen/Screen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Matyskin/screen/Screen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/screen/SelectActionScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Matyskin/screen/SelectActionScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/screen/ShowBalanceScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Matyskin/screen/ShowBalanceScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Matyskin/ATM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Matyskin/ATM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Matyskin/BankCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Matyskin/BankCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Matyskin/screen/InputMoneyScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Matyskin/screen/InputMoneyScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Matyskin/screen/PinCodeInputScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Matyskin/screen/PinCodeInputScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Matyskin/screen/ReturnCardScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Matyskin/screen/ReturnCardScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Matyskin/screen/Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Matyskin/screen/Screen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Matyskin/screen/SelectActionScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Matyskin/screen/SelectActionScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Matyskin/screen/ShowBalanceScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Matyskin/screen/ShowBalanceScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ATM-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ATM-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/AtmMvnGit.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Matyskin/ATM.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Matyskin/ATM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Matyskin/BankCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Matyskin/BankCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Matyskin/screen/InputMoneyScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Matyskin/screen/InputMoneyScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Matyskin/screen/PinCodeInputScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Matyskin/screen/PinCodeInputScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Matyskin/screen/ReturnCardScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Matyskin/screen/ReturnCardScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Matyskin/screen/Screen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Matyskin/screen/Screen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Matyskin/screen/SelectActionScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Matyskin/screen/SelectActionScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Matyskin/screen/ShowBalanceScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Matyskin/screen/ShowBalanceScreen.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/dependencies.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/dependencies.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/dependency-convergence.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/dependency-convergence.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/dependency-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/dependency-info.html" afterDir="false" />
@@ -51,11 +51,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="AtmMvnGit" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="KEEP" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -70,26 +75,42 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProjectId" id="1WfZoCppm9ETlNWgEYCz3g5WYdL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Groovy JUnit" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
-  <component name="RunAnythingCache">
-    <myKeys>
-      <visibility group="Gradle tasks" flag="false" />
-      <visibility group="Maven goals" flag="false" />
-      <visibility group="Recent projects" flag="false" />
-      <visibility group="Run configurations" flag="false" />
-    </myKeys>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.Matyskin" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="groovy.util.GroovyTestCase" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="groovy.util" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.ATM (1)">
+  <component name="RunManager" selected="Application.ControllerTest">
     <configuration name="ATM (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Matyskin.ATM" />
       <module name="AtmMvnGit" />
@@ -108,7 +129,7 @@
       <module name="AtmMvnGit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,8 +137,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ControllerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ControllerTest" />
+      <module name="AtmMvnGit" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InputMoneyScreen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Matyskin.screen.InputMoneyScreen" />
+      <module name="AtmMvnGit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Matyskin.screen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserInterfeceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UserInterfeceTest" />
+      <module name="AtmMvnGit" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in AtmMvnGit" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="AtmMvnGit" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ControllerTest" />
+        <item itemvalue="Application.UserInterfeceTest" />
+        <item itemvalue="Application.InputMoneyScreen" />
         <item itemvalue="Application.ATM (1)" />
         <item itemvalue="Application.ATM" />
       </list>
@@ -139,83 +201,122 @@
     <configuration />
   </component>
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="99d20792-0033-4f2a-bd2a-e9e9e4e2a2d0" name="Default Changelist" comment="" />
+      <created>1579542781208</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579542781208</updated>
+    </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="323" y="98" key="#All_in_AtmMvnGit" timestamp="1579901863807">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="323" y="98" key="#All_in_AtmMvnGit/0.0.1440.860@0.0.1440.860" timestamp="1579901863807" />
     <state x="312" y="92" key="#Inspections" timestamp="1578510957851">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="312" y="92" key="#Inspections/0.0.1440.860@0.0.1440.860" timestamp="1578510957851" />
-    <state x="312" y="92" key="#Project_Structure" timestamp="1578515504612">
+    <state x="525" y="140" key="#com.intellij.ide.util.MemberChooser" timestamp="1580143674618">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="312" y="92" key="#Project_Structure/0.0.1440.860@0.0.1440.860" timestamp="1578515504612" />
-    <state x="174" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578515241746">
+    <state x="525" y="140" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1580143674618" />
+    <state x="447" y="123" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1578509515510">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="174" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1578515241746" />
-    <state x="447" y="123" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1578516215047">
+    <state x="447" y="123" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1440.860@0.0.1440.860" timestamp="1578509515510" />
+    <state x="521" y="300" width="398" height="266" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1580065933551">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="447" y="123" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1440.860@0.0.1440.860" timestamp="1578516215047" />
-    <state x="121" y="29" key="CommitChangelistDialog2" timestamp="1578522690906">
+    <state x="521" y="300" width="398" height="266" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.860@0.0.1440.860" timestamp="1580065933551" />
+    <state x="450" y="181" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580060510522">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="121" y="29" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1578522690906" />
-    <state x="500" y="189" key="FileChooserDialogImpl" timestamp="1578521410624">
+    <state x="450" y="181" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.860@0.0.1440.860" timestamp="1580060510522" />
+    <state x="339" y="0" key="CommitChangelistDialog2" timestamp="1580065086904">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="500" y="189" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1578521410624" />
-    <state x="558" y="348" width="347" height="163" key="Github.CreateGistDialog" timestamp="1578515056539">
+    <state x="339" y="0" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1580065086904" />
+    <state x="500" y="189" key="FileChooserDialogImpl" timestamp="1578509235824">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="558" y="348" width="347" height="163" key="Github.CreateGistDialog/0.0.1440.860@0.0.1440.860" timestamp="1578515056539" />
-    <state width="1397" height="222" key="GridCell.Tab.0.bottom" timestamp="1578515244126">
+    <state x="500" y="189" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1578509235824" />
+    <state width="1397" height="222" key="GridCell.Tab.0.bottom" timestamp="1580144121862">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1578515244126" />
-    <state width="1397" height="222" key="GridCell.Tab.0.center" timestamp="1578515244126">
+    <state width="1397" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1580144121862" />
+    <state width="1397" height="222" key="GridCell.Tab.0.center" timestamp="1580144121862">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1578515244126" />
-    <state width="1397" height="222" key="GridCell.Tab.0.left" timestamp="1578515244126">
+    <state width="1397" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1580144121862" />
+    <state width="1397" height="222" key="GridCell.Tab.0.left" timestamp="1580144121862">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1578515244126" />
-    <state width="1397" height="222" key="GridCell.Tab.0.right" timestamp="1578515244126">
+    <state width="1397" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1580144121862" />
+    <state width="1397" height="222" key="GridCell.Tab.0.right" timestamp="1580144121862">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1578515244126" />
-    <state width="242" height="198" key="RunAnythingAction_Filter_Popup" timestamp="1578516164417">
+    <state width="1397" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1580144121862" />
+    <state width="1397" height="276" key="GridCell.Tab.1.bottom" timestamp="1580078617923">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="242" height="198" key="RunAnythingAction_Filter_Popup/0.0.1440.860@0.0.1440.860" timestamp="1578516164417" />
-    <state x="247" y="17" key="SettingsEditor" timestamp="1578516166720">
+    <state width="1397" height="276" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1580078617923" />
+    <state width="1397" height="276" key="GridCell.Tab.1.center" timestamp="1580078617922">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="247" y="17" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1578516166720" />
-    <state x="92" y="92" width="1256" height="676" key="git4idea.log.GitShowExternalLogAction" timestamp="1578521659688">
+    <state width="1397" height="276" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1580078617922" />
+    <state width="1397" height="276" key="GridCell.Tab.1.left" timestamp="1580078617922">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="92" y="92" width="1256" height="676" key="git4idea.log.GitShowExternalLogAction/0.0.1440.860@0.0.1440.860" timestamp="1578521659688" />
-    <state x="605" y="156" key="run.anything.popup" timestamp="1578516164421">
+    <state width="1397" height="276" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1580078617922" />
+    <state width="1397" height="276" key="GridCell.Tab.1.right" timestamp="1580078617922">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="605" y="156" key="run.anything.popup/0.0.1440.860@0.0.1440.860" timestamp="1578516164421" />
-    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1578516090207">
+    <state width="1397" height="276" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1580078617922" />
+    <state x="472" y="145" key="RollbackChangesDialog" timestamp="1579542918038">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1578516090207" />
+    <state x="472" y="145" key="RollbackChangesDialog/0.0.1440.860@0.0.1440.860" timestamp="1579542918038" />
+    <state x="223" y="17" key="SettingsEditor" timestamp="1578509508562">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="223" y="17" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1578509508562" />
+    <state x="312" y="167" key="Vcs.Push.Dialog.v2" timestamp="1580143563014">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="312" y="167" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1580143563014" />
+    <state x="428" y="259" key="com.intellij.ide.util.TipDialog" timestamp="1580143414641">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="428" y="259" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1580143414641" />
+    <state x="491" y="151" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1580061584418">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="491" y="151" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.860@0.0.1440.860" timestamp="1580061584418" />
   </component>
 </project>

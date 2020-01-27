@@ -1,35 +1,17 @@
 package com.Matyskin;
 
 public class BankCard {
-    private int cardPinCode;
-    private long numberCart;
-    private double cardBalance;
+    private long numberCard;
 
-    public BankCard(int cardPinCode, long cardNumber, double cardBalance) {
-        this.cardPinCode = cardPinCode;
-        this.numberCart = cardNumber;
-        this.cardBalance = cardBalance;
+    public BankCard(long cardNumber) {
+        this.numberCard = cardNumber;
     }
 
     public BankCard() {
-        this.cardPinCode = 1111;
-        this.numberCart = 1111222211112222L;
-        this.cardBalance = 1000;
+        this.numberCard = 1111222211112222L;
     }
 
-    public double getCardBalance() {
-        return cardBalance;
-    }
-
-    public int getCardPinCode() {
-        return cardPinCode;
-    }
-
-    public long getNumberCart() {
-        return numberCart;
-    }
-
-    public void setCardBalance(double cardBalance) {
-        this.cardBalance = cardBalance;
+    public long getNumberCard() {
+        return numberCard;
     }
 }

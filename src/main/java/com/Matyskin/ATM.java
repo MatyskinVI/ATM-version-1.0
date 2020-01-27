@@ -1,8 +1,5 @@
 package com.Matyskin;
 
-import com.Matyskin.screen.PinCodeInputScreen;
-import com.Matyskin.screen.Screen;
-
 public class ATM {
     private String nameATM;
     private double balanceATM;
@@ -12,9 +9,9 @@ public class ATM {
         this.balanceATM = balanceATM;
     }
 
-    public static void main(String[] args) {
-        ATM belarusBankATM = new ATM("Belarus Bank ATM", 12000);
-        belarusBankATM.start();
+    public ATM() {
+        this.nameATM = "Belarus Bank ATM";
+        this.balanceATM = 12000;
     }
 
     public String getNameATM() {
@@ -27,11 +24,5 @@ public class ATM {
 
     public void setBalanceATM(double balanceATM) {
         this.balanceATM = balanceATM;
-    }
-
-    public void start() {
-        BankCard belarusBankCard = new BankCard();
-        Screen atmScreen = new PinCodeInputScreen(belarusBankCard, this);
-        atmScreen.work();
     }
 }

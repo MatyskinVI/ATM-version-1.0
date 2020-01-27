@@ -1,5 +1,7 @@
 com\Matyskin\screen\ShowBalanceScreen.class
 com\Matyskin\ATM.class
+com\Matyskin\DataBase.class
+com\Matyskin\Controller.class
 com\Matyskin\screen\InputMoneyScreen.class
 com\Matyskin\screen\ReturnCardScreen.class
 com\Matyskin\screen\PinCodeInputScreen.class
